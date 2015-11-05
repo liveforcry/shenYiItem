@@ -13,10 +13,23 @@
 @end
 
 @implementation TuWanViewController
-
++(UINavigationController *)standardTuWanNavi{
+    static UINavigationController *navi = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        TuWanViewController *vc = [TuWanViewController new];
+        
+        navi = [[UINavigationController alloc]initWithRootViewController:vc];
+    });
+    return navi;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor greenSeaColor];
+    self.title = @"兔玩";
+   
+    [Factory addMenuItemToVc:self];
 }
 
 - (void)didReceiveMemoryWarning {

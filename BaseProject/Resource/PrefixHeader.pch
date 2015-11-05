@@ -50,7 +50,9 @@
 
 #import <FMDB/FMDB.h>       //第三方对数据库的操作类库，是对系统Sqlite3的封装。 使用SQL语句操作数据库
 
+//自定义工厂类 功能类 其中存放各种自定义方法
 
+#import "Factory.h"
 
 #import <CocoaLumberjack.h> //优秀的替换NSLog的第三方，更加省资源，并且可以定义打印级别
 #ifdef DEBUG

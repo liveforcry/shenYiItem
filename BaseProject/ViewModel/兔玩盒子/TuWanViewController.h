@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TuWanViewController : UIViewController
-
++(UINavigationController *)standardTuWanNavi;
 @end

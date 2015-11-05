@@ -12,7 +12,10 @@
 		226279971BEB072D00124283 /* TuWanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226279961BEB072D00124283 /* TuWanViewController.m */; };
 		2262799A1BEB074B00124283 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226279991BEB074B00124283 /* MyInfoViewController.m */; };
 		2262799D1BEB077F00124283 /* RankListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262799C1BEB077F00124283 /* RankListViewController.m */; };
-		226279A01BEB07C600124283 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2262799F1BEB07C600124283 /* LeftViewController.m */; };
+		226FF4081BEB346300DBCC8D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FF4071BEB346300DBCC8D /* LeftViewController.m */; };
+		226FF40B1BEB449000DBCC8D /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FF40A1BEB449000DBCC8D /* Factory.m */; };
+		226FF40E1BEB47EC00DBCC8D /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FF40D1BEB47EC00DBCC8D /* TuWanViewModel.m */; };
+		226FF4111BEB485F00DBCC8D /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 226FF4101BEB485F00DBCC8D /* BaseViewModel.m */; };
 		3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE4A1BD758F10046C8C8 /* AppDelegate+Category.m */; };
 		3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE4C1BD758F10046C8C8 /* NSObject+Common.m */; };
 		3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE4E1BD758F10046C8C8 /* NSString+PJR.m */; };
@@ -80,8 +83,14 @@
 		226279991BEB074B00124283 /* MyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
 		2262799B1BEB077F00124283 /* RankListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankListViewController.h; sourceTree = "<group>"; };
 		2262799C1BEB077F00124283 /* RankListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankListViewController.m; sourceTree = "<group>"; };
-		2262799E1BEB07C600124283 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
-		2262799F1BEB07C600124283 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		226FF4061BEB346300DBCC8D /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = ../LeftViewController.h; sourceTree = "<group>"; };
+		226FF4071BEB346300DBCC8D /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = ../LeftViewController.m; sourceTree = "<group>"; };
+		226FF4091BEB449000DBCC8D /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		226FF40A1BEB449000DBCC8D /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		226FF40C1BEB47EC00DBCC8D /* TuWanViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewModel.h; sourceTree = "<group>"; };
+		226FF40D1BEB47EC00DBCC8D /* TuWanViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanViewModel.m; sourceTree = "<group>"; };
+		226FF40F1BEB485F00DBCC8D /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewModel.h; path = "喜马拉雅/BaseViewModel.h"; sourceTree = "<group>"; };
+		226FF4101BEB485F00DBCC8D /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewModel.m; path = "喜马拉雅/BaseViewModel.m"; sourceTree = "<group>"; };
 		3804CE491BD758F10046C8C8 /* AppDelegate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Category.h"; sourceTree = "<group>"; };
 		3804CE4A1BD758F10046C8C8 /* AppDelegate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Category.m"; sourceTree = "<group>"; };
 		3804CE4B1BD758F10046C8C8 /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
@@ -166,7 +175,7 @@
 		3886C0AD1BD749A00014E661 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../LaunchScreen.xib; sourceTree = "<group>"; };
 		3886C0B81BD74A700014E661 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3886C0B91BD74AE90014E661 /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
-		3886C0BA1BD74AE90014E661 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		3886C0BA1BD74AE90014E661 /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewModel.m; path = ../BaseViewModel.m; sourceTree = "<group>"; };
 		3886C0BC1BD74AFE0014E661 /* BaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetManager.h; sourceTree = "<group>"; };
 		3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetManager.m; sourceTree = "<group>"; };
 		3886C0BF1BD74B090014E661 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
@@ -214,6 +223,8 @@
 		226279871BEB05F800124283 /* 兔玩盒子 */ = {
 			isa = PBXGroup;
 			children = (
+				226FF40C1BEB47EC00DBCC8D /* TuWanViewModel.h */,
+				226FF40D1BEB47EC00DBCC8D /* TuWanViewModel.m */,
 			);
 			path = "兔玩盒子";
 			sourceTree = "<group>";
@@ -262,6 +273,9 @@
 		226279911BEB064100124283 /* 喜马拉雅 */ = {
 			isa = PBXGroup;
 			children = (
+				3886C0BA1BD74AE90014E661 /* BaseViewModel.m */,
+				226FF4061BEB346300DBCC8D /* LeftViewController.h */,
+				226FF4071BEB346300DBCC8D /* LeftViewController.m */,
 				2262799B1BEB077F00124283 /* RankListViewController.h */,
 				2262799C1BEB077F00124283 /* RankListViewController.m */,
 			);
@@ -443,15 +457,15 @@
 		3886C0951BD748830014E661 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				3886C0B51BD74A4A0014E661 /* View */,
 				3886C0AF1BD74A4A0014E661 /* Define */,
 				3886C0B01BD74A4A0014E661 /* Model */,
 				3886C0B11BD74A4A0014E661 /* NetManager */,
 				3886C0B21BD74A4A0014E661 /* Resource */,
 				3886C0B31BD74A4A0014E661 /* Util */,
 				3886C0B41BD74A4A0014E661 /* Vendor */,
-				3886C0B51BD74A4A0014E661 /* View */,
-				3886C0B61BD74A4A0014E661 /* ViewController */,
-				3886C0B71BD74A4A0014E661 /* ViewModel */,
+				3886C0B71BD74A4A0014E661 /* ViewController */,
+				3886C0B61BD74A4A0014E661 /* ViewModel */,
 				3886C0991BD748830014E661 /* AppDelegate.h */,
 				3886C09A1BD748830014E661 /* AppDelegate.m */,
 				3886C0961BD748830014E661 /* Supporting Files */,
@@ -509,6 +523,8 @@
 			isa = PBXGroup;
 			children = (
 				3804CE481BD758F10046C8C8 /* Category */,
+				226FF4091BEB449000DBCC8D /* Factory.h */,
+				226FF40A1BEB449000DBCC8D /* Factory.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -531,31 +547,32 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		3886C0B61BD74A4A0014E661 /* ViewController */ = {
+		3886C0B61BD74A4A0014E661 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				226FF40F1BEB485F00DBCC8D /* BaseViewModel.h */,
+				226FF4101BEB485F00DBCC8D /* BaseViewModel.m */,
 				226279861BEB05F800124283 /* 多玩盒子 */,
 				226279871BEB05F800124283 /* 兔玩盒子 */,
 				226279881BEB05F800124283 /* 我的信息 */,
 				226279891BEB05F800124283 /* 喜马拉雅 */,
-				2262799E1BEB07C600124283 /* LeftViewController.h */,
-				2262799F1BEB07C600124283 /* LeftViewController.m */,
 			);
+			name = ViewModel;
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		3886C0B71BD74A4A0014E661 /* ViewModel */ = {
+		3886C0B71BD74A4A0014E661 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				2262798E1BEB064100124283 /* 多玩盒子 */,
+				3886C0B91BD74AE90014E661 /* BaseViewModel.h */,
 				2262798F1BEB064100124283 /* 兔玩盒子 */,
+				2262798E1BEB064100124283 /* 多玩盒子 */,
 				226279901BEB064100124283 /* 我的信息 */,
 				226279911BEB064100124283 /* 喜马拉雅 */,
-				3886C0B91BD74AE90014E661 /* BaseViewModel.h */,
-				3886C0BA1BD74AE90014E661 /* BaseViewModel.m */,
 			);
-			path = ViewModel;
-			sourceTree = "<group>";
+			name = ViewController;
+			path = BaseProject/ViewModel;
+			sourceTree = SOURCE_ROOT;
 		};
 		DEB62B47C560AA65E07ECFA4 /* Pods */ = {
 			isa = PBXGroup;
@@ -731,6 +748,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
+				226FF4111BEB485F00DBCC8D /* BaseViewModel.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				2262799A1BEB074B00124283 /* MyInfoViewController.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
@@ -739,7 +757,9 @@
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
-				226279A01BEB07C600124283 /* LeftViewController.m in Sources */,
+				226FF40B1BEB449000DBCC8D /* Factory.m in Sources */,
+				226FF40E1BEB47EC00DBCC8D /* TuWanViewModel.m in Sources */,
+				226FF4081BEB346300DBCC8D /* LeftViewController.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
 				226279941BEB06C500124283 /* DuoWanTabBarController.m in Sources */,

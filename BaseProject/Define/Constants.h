@@ -18,7 +18,13 @@
 #define kAppDelegate ((AppDelegate*)([UIApplication sharedApplication].delegate))
 
 #define kStoryboard(StoryboardName)     [UIStoryboard storyboardWithName:StoryboardName bundle:nil]
+// 导航栏题目文字大小
 
+#define KNaviTitleFontSize 24.0
+
+// 导航栏题目文字颜色
+
+#define KNaviTitleColor [UIColor colorWithRed:239/255.0 green:141/255.0 blue:119/255.0 alpha:1.0]
 //通过Storyboard ID 在对应Storyboard中获取场景对象
 #define kVCFromSb(storyboardId, storyboardName)     [[UIStoryboard storyboardWithName:storyboardName bundle:nil] \
 instantiateViewControllerWithIdentifier:storyboardId]
