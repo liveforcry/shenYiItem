@@ -8,7 +8,7 @@
 
 #import "AppDelegate+Category.h"
 #import <AFNetworkActivityIndicatorManager.h>
-
+#import "UMSocial.h"
 @implementation AppDelegate (Category)
 
 - (void)initializeWithApplication:(UIApplication *)application{
@@ -19,7 +19,7 @@
     
     //    电池条显示网络活动
     [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
-    //    检测网络状态
+    //    检测网络状态  官网提供
     [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
         DDLogVerbose(@"Reachability: %@", AFStringFromNetworkReachabilityStatus(status));
         switch (status) {
@@ -34,6 +34,9 @@
         }
     }];
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    
+    //启动友盟统计功能
+    
 }
 
 
