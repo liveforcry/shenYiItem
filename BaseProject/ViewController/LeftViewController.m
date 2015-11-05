@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  LeftViewController.m
 //  BaseProject
 //
-//  Created by jiyingxin on 15/10/22.
+//  Created by apple-jd30 on 15/11/5.
 //  Copyright © 2015年 Tarena. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LeftViewController.h"
 
-@interface ViewController ()
+@interface LeftViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LeftViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

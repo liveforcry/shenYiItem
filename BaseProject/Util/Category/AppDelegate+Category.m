@@ -8,7 +8,7 @@
 
 #import "AppDelegate+Category.h"
 #import <AFNetworkActivityIndicatorManager.h>
-#import "UMSocial.h"
+#import "MobClick.h"
 @implementation AppDelegate (Category)
 
 - (void)initializeWithApplication:(UIApplication *)application{
@@ -37,6 +37,9 @@
     
     //启动友盟统计功能
     
+    //友盟appKey 5632e9a667e58e7340000235
+    
+    [MobClick startWithAppkey:@"5632e9a667e58e7340000235"];
 }
 
 
