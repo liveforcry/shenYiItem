@@ -9,5 +9,5 @@
 #import "BaseModel.h"
 #import "BaseViewModel.h"
 @interface TuWanViewModel : BaseViewModel
-
+@property(nonatomic,strong)NSInteger rowNumber;
 @end
